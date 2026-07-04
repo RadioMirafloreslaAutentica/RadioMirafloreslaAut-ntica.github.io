@@ -3,198 +3,291 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sputnik Mundo - Portal de Noticias</title>
+  <title>Radio Miraflores La Auténtica</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Header Principal -->
+  <!-- HEADER -->
   <header class="main-header">
     <div class="header-top">
-      <div class="container">
-        <div class="logo">
-          <h1>📡 SPUTNIK <span>Mundo</span></h1>
-        </div>
-        <div class="header-social">
-          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
-        </div>
+      <div class="logo-box">
+        <h1>RADIO MIRAFLORES<br><span>LA AUTÉNTICA</span></h1>
+      </div>
+      <div class="header-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
       </div>
     </div>
-
-    <!-- Navegación -->
     <nav class="main-nav">
-      <div class="container">
-        <ul>
-          <li><a href="#" class="active">NACIONAL</a></li>
-          <li><a href="#">INTERNACIONAL</a></li>
-          <li><a href="#">POLÍTICA</a></li>
-          <li><a href="#">ECONOMÍA</a></li>
-          <li><a href="#">DEFENSA</a></li>
-          <li><a href="#">GEOPOLÍTICA</a></li>
-          <li><a href="#">DEPORTES</a></li>
-          <li><a href="#">MULTIMEDIA</a></li>
-          <li><a href="#">AMÉRICA LATINA</a></li>
-        </ul>
-      </div>
+      <a href="#">AMÉRICA LATINA</a>
+      <a href="#">INTERNACIONAL</a>
+      <a href="#">ECONOMÍA</a>
+      <a href="#">DEFENSA</a>
+      <a href="#">MULTIMEDIA</a>
+      <a href="#">RADIO</a>
     </nav>
   </header>
 
-  <!-- Contenido Principal -->
+  <!-- BENTO GRID PRINCIPAL -->
   <main class="container">
-    
-    <!-- Noticia Principal Destacada -->
-    <section class="noticia-principal">
-      <div class="noticia-destacada">
-        <span class="categoria-tag">NOTICIA PRINCIPAL</span>
-        <h2>Putin lanza fuerte mensaje a Trump sobre conflicto internacional</h2>
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    <section class="bento-grid">
+      
+      <!-- Tarjeta Principal GRANDE -->
+      <article class="card card-grande" style="background-image: url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200');">
+        <div class="card-overlay">
+          <span class="tag tag-rojo">NOTICIA PRINCIPAL</span>
+          <span class="tag tag-blanco">POLÍTICA</span>
+          <span class="tag tag-blanco">PERUANA</span>
+          <h2>La toma de Konstantinovka: pérdidas y avances en el frente</h2>
         </div>
-        <p class="descripcion">El presidente ruso envió un mensaje directo al mandatario estadounidense en medio de las tensiones geopolíticas actuales.</p>
-        <div class="meta-info">
-          <span><i class="far fa-clock"></i> 5 julio 2026</span>
-          <span><i class="far fa-eye"></i> 15,234 vistas</span>
+      </article>
+
+      <!-- Tarjeta NACIONAL -->
+      <article class="card card-mediana" style="background-image: url('https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=600');">
+        <div class="card-overlay">
+          <span class="tag tag-blanco-grande">NACIONAL</span>
         </div>
+      </article>
+
+      <!-- Tarjeta GEOPOLÍTICA -->
+      <article class="card card-mediana" style="background-image: url('https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600');">
+        <div class="card-overlay">
+          <span class="tag tag-blanco-grande">GEOPOLÍTICA</span>
+        </div>
+      </article>
+
+      <!-- Tarjeta DEPORTES -->
+      <article class="card card-mediana" style="background-image: url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600');">
+        <div class="card-overlay">
+          <span class="tag tag-blanco-grande">DEPORTES</span>
+        </div>
+      </article>
+
+      <!-- Tarjeta VIDEOS -->
+      <article class="card card-mediana" style="background-image: url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600');">
+        <div class="card-overlay">
+          <span class="tag tag-blanco-grande">VIDEOS</span>
+          <i class="fas fa-play-circle play-icon"></i>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- SECCIÓN SÍGUENOS EN -->
+    <section class="social-section">
+      <h3>Síguenos en</h3>
+      <div class="social-bar">
+        <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i> INSTAGRAM</a>
+        <a href="#" class="social-btn facebook"><i class="fab fa-facebook"></i> FACEBOOK</a>
+        <a href="#" class="social-btn tiktok"><i class="fab fa-tiktok"></i> tiktok</a>
+        <a href="#" class="social-btn youtube"><i class="fab fa-youtube"></i> YOUTUBE</a>
+        <a href="#" class="social-btn telegram"><i class="fab fa-telegram"></i> Telegram</a>
       </div>
     </section>
 
-    <!-- Grid de Noticias -->
-    <div class="news-grid">
+    <!-- GRID DE NOTICIAS / VIDEOS -->
+    <section class="news-grid-2">
       
-      <!-- Columna Izquierda -->
-      <div class="news-column">
+      <!-- Noticia 1 -->
+      <article class="news-item">
+        <div class="news-thumb">
+          <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=400" alt="Economía">
+          <span class="play-overlay"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="news-content">
+          <h4>Economía rusa a tope, la Europa vasalla en caída libre total, mientras EEUU sigue 'haciendo caja'</h4>
+        </div>
+      </article>
+
+      <!-- Noticia 2 -->
+      <article class="news-item">
+        <div class="news-thumb">
+          <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=400" alt="Putin Trump">
+          <span class="play-overlay"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="news-content">
+          <h4>Putin lanza fuerte mensaje a Trump</h4>
+        </div>
+      </article>
+
+      <!-- Noticia 3 - VIRAL -->
+      <article class="news-item news-viral">
+        <div class="viral-header">
+          <span class="tag-viral">Lo más</span>
+          <span class="tag-viral-naranja">VIRAL</span>
+        </div>
+        <div class="news-thumb">
+          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400" alt="Viral">
+        </div>
+        <p class="viral-text">Story, reel</p>
+      </article>
+
+      <!-- Noticia 4 - Opinión -->
+      <article class="news-item opinion-item">
+        <div class="opinion-avatar">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Autor">
+        </div>
+        <div class="news-content">
+          <span class="tag-opinion">De opinión</span>
+          <h4>Noticias del día nacionales</h4>
+        </div>
+      </article>
+
+      <!-- Noticia 5 -->
+      <article class="news-item">
+        <div class="news-thumb">
+          <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400" alt="Europa">
+          <span class="play-overlay"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="news-content">
+          <h4>El espíritu terrorista y guerrerista de Europa en todo su esplendor</h4>
+        </div>
+      </article>
+
+      <!-- Noticia 6 -->
+      <article class="news-item">
+        <div class="news-thumb">
+          <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400" alt="Paraguay">
+          <span class="play-overlay"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="news-content">
+          <h4>Rumbo a la Final: Paraguay busca una victoria histórica ante la poderosa Francia</h4>
+        </div>
+      </article>
+
+      <!-- Noticia 7 -->
+      <article class="news-item opinion-item">
+        <div class="opinion-avatar">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100" alt="Autor">
+        </div>
+        <div class="news-content">
+          <span class="tag-opinion">Noticias del día</span>
+          <h4>internacionales</h4>
+        </div>
+      </article>
+
+      <!-- Noticia 8 -->
+      <article class="news-item">
+        <div class="news-thumb">
+          <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400" alt="Geopolítica">
+          <span class="play-overlay"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="news-content">
+          <h4>Noticias del día geopolítica</h4>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- SECCIÓN PROGRAMAS -->
+    <section class="programas-section">
+      <h2 class="section-title">Programas</h2>
+      <div class="programas-grid">
         
-        <article class="noticia-card">
-          <span class="categoria-tag economia">ECONOMÍA</span>
-          <h3>Economía rusa a tope, la Europa vasalla en caída libre total</h3>
-          <div class="video-container small">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <article class="programa-card">
+          <div class="programa-img">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="José Jaime Carrasco">
+            <div class="programa-overlay">
+              <span class="programa-tag">EN TRE</span>
+              <span class="programa-tag">VIA</span>
+            </div>
           </div>
-          <p>Mientras EEUU sigue 'haciendo caja', la economía europea muestra signos de debilidad en todos los sectores clave.</p>
+          <div class="programa-info">
+            <span class="programa-host">José Jaime<br>Carrasco Pérez</span>
+            <h4>Perú: ¿habrá un gran terremoto de 8.8 grados, según se estima?</h4>
+          </div>
         </article>
 
-        <article class="noticia-card">
-          <span class="categoria-tag deportes">DEPORTES</span>
-          <h3>Rumbo a la Final: Paraguay busca victoria histórica ante Francia</h3>
-          <div class="reel-container">
-            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/ABC123/" data-instgrm-version="14"></blockquote>
-            <script async src="//www.instagram.com/embed.js"></script>
+        <article class="programa-card">
+          <div class="programa-img">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400" alt="Jorge Beens">
+            <div class="programa-overlay">
+              <span class="programa-tag">EN TRE</span>
+              <span class="programa-tag">VIA</span>
+            </div>
           </div>
-          <p>La selección paraguaya se prepara para enfrentar a la poderosa Francia en busca de un lugar en la final.</p>
+          <div class="programa-info">
+            <span class="programa-host">Jorge<br>Beens</span>
+            <h4>EE.UU.: ¿festejo en tiempos de cólera?</h4>
+          </div>
         </article>
 
-        <article class="noticia-card">
-          <span class="categoria-tag geopolitica">GEOPOLÍTICA</span>
-          <h3>La toma de Konstantinovka: Análisis estratégico</h3>
-          <figure>
-            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800" alt="Geopolítica">
-            <figcaption>Imagen ilustrativa del conflicto</figcaption>
-          </figure>
-          <p>Análisis detallado de los movimientos estratégicos en la región y sus implicaciones globales.</p>
+        <article class="programa-card">
+          <div class="programa-img">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="Programa">
+            <div class="programa-overlay">
+              <span class="programa-tag">EN TRE</span>
+              <span class="programa-tag">VIA</span>
+            </div>
+          </div>
+          <div class="programa-info">
+            <h4>"El hombre no ha podido superar con ningún aparato los sentidos"</h4>
+          </div>
         </article>
 
-        <article class="noticia-card">
-          <span class="categoria-tag viral">VIRAL</span>
-          <h3>Lo más VIRAL del día en redes sociales</h3>
-          <div class="tiktok-container">
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@usuario/video/1234567890" data-video-id="1234567890">
-              <section></section>
-            </blockquote>
-            <script async src="https://www.tiktok.com/embed.js"></script>
+        <article class="programa-card">
+          <div class="programa-img">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400" alt="Cruzar líneas">
           </div>
-          <p>Los contenidos más compartidos en redes sociales hoy.</p>
+          <div class="programa-info">
+            <h4>¿CRUZAR LAS LÍNEAS?<br>Nunca: cruzar las líneas?</h4>
+          </div>
         </article>
 
       </div>
-
-      <!-- Sidebar -->
-      <aside class="sidebar">
-        
-        <div class="sidebar-section">
-          <h3><i class="fas fa-play-circle"></i> VIDEOS DESTACADOS</h3>
-          <div class="video-list">
-            <div class="video-item">
-              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
-              <h4>El espíritu terrorista y guerrerista de Europa</h4>
-            </div>
-            <div class="video-item">
-              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
-              <h4>¿Habrá un gran terremoto de 8.8 grados en Perú?</h4>
-            </div>
-            <div class="video-item">
-              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
-              <h4>EE.UU.: ¿Festejo en tiempos de cólera?</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="sidebar-section newsletter">
-          <h3><i class="fas fa-envelope"></i> BOLETÍN DE NOTICIAS</h3>
-          <p>Recibe las noticias destacadas cada lunes, miércoles y viernes</p>
-          <form>
-            <input type="email" placeholder="Tu correo electrónico" required>
-            <button type="submit">Suscribirse</button>
-          </form>
-          <small>Acepto la política de privacidad</small>
-        </div>
-
-        <div class="sidebar-section">
-          <h3><i class="fas fa-tv"></i> PROGRAMAS</h3>
-          <ul class="programas-list">
-            <li><a href="#">Cruzando las Líneas</a></li>
-            <li><a href="#">Reporta</a></li>
-            <li><a href="#">Denuncias</a></li>
-            <li><a href="#">Ajedrez Geopolítico</a></li>
-          </ul>
-        </div>
-
-      </aside>
-    </div>
+    </section>
 
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer class="main-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-section">
-          <h4>Sputnik Mundo</h4>
-          <p>Tu fuente de noticias internacionales, geopolítica y análisis</p>
-          <div class="footer-social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-tiktok"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-telegram"></i></a>
-          </div>
+    <div class="footer-container">
+      <div class="footer-col">
+        <div class="footer-links">
+          <a href="#">denuncias</a>
+          <a href="#">whatsapp</a>
         </div>
-        <div class="footer-section">
-          <h4>Secciones</h4>
-          <ul>
-            <li><a href="#">Nacional</a></li>
-            <li><a href="#">Internacional</a></li>
-            <li><a href="#">Política</a></li>
-            <li><a href="#">Economía</a></li>
-          </ul>
-        </div>
-        <div class="footer-section">
-          <h4>Enlaces</h4>
-          <ul>
-            <li><a href="#">Quiénes Somos</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Aplicación Móvil</a></li>
-            <li><a href="#">Condiciones de Uso</a></li>
-          </ul>
+        <p class="footer-privacy">Acepto la política de privacidad.<br>Le ofrecemos la posibilidad de recibir las noticias destacadas cada lunes, miércoles y viernes por correo electrónico.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Nacional</h5>
+        <ul>
+          <li><a href="#">Internacional</a></li>
+          <li><a href="#">Programas</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Opinión</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>ACERCA DE RT</h5>
+        <ul>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Contactos</a></li>
+          <li><a href="#">Carrera en RT</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>APLICACIÓN MÓVIL</h5>
+        <ul>
+          <li><a href="#">Android</a></li>
+          <li><a href="#">iOS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-search">
+        <h5>Buscar</h5>
+        <div class="search-box">
+          <input type="text" placeholder="Buscar...">
+          <button><i class="fas fa-search"></i></button>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Sputnik Mundo. Todos los derechos reservados.</p>
-      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Condiciones de uso | Política de privacidad</p>
     </div>
   </footer>
 
